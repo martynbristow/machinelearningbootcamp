@@ -12,14 +12,17 @@ Installing required packages using "pip"
 Open your terminal and check whether you have the "pip" function installed by typing pip (and enter)
 If you do not have pip installed, check the link: [https://pip.pypa.io/en/latest/installing/](https://pip.pypa.io/en/latest/installing/) (If installing via the terminal/command line, ensure you are in the directory where you have downloaded the file "get-pip" or if using chrome right-click on the link to download, save to desktop, and simply double click on the executable).
 
-You may need to use `sudo pip install` (for OSX, *nix, etc) or run your command shell as Administrator (for Windows) to be able to perform the installation of the folllowing individual packages:
+You may need to use `sudo pip install` (for OSX, *nix, etc) or run your command shell as Administrator (for Windows) to be able to perform the installation of the following individual packages:
 
     (sudo) pip install Plotly
     (sudo) pip install keras
-
     (sudo) pip install --upgrade --no-deps git+git://github.com/Theano/Theano.git
 
-or if you're using windows, follow the instructions at: [http://deeplearning.net/software/theano/install_windows.html#install-windows](http://deeplearning.net/software/theano/install_windows.html#install-windows)
+Nota that if you're on windows you'll need to install some additional packages to use theano:
+
+    conda install mingw libpython
+
+in case that theano doesn't work after installing its dependencies make sure you have the latest version.
 
 
 If you already have any of the previously-mentioned libraries installed, you can update them to a newer version using the syntax:
