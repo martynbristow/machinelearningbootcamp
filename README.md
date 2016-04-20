@@ -41,7 +41,7 @@ If the opencv/cv2 library does not load and gives you an error while in the prev
 
     conda install -c https://conda.binstar.org/menpo opencv
 
-If you wants to install opencv (including cv2) on OSX with **Python 3+** (not 2.7) try this:
+If you want to install opencv (including cv2) on OSX with **Python 3+** (not 2.7) try this:
 
     conda install --channel https://conda.anaconda.org/menpo opencv3
     (import cv2)
