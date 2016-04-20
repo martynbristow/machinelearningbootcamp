@@ -29,7 +29,7 @@ If you already have any of the previously-mentioned libraries installed, you can
 
     pip install <package> --upgrade
 
-where `<package>` can be any of the libraries mentioned above.
+where `<package>` can be any of the aforementioned libraries.
 
 ## Install required packages with Conda
 
@@ -58,11 +58,11 @@ Sign up for a GitHub account or sign in if you have one: [github.com](https://gi
 
 ## Clone or download the code from the CCA GitHub repository
 
-You can create a copy of the provided code on your local machine by either using the "git clone" command on your console: 
+You can create a copy of the provided code on your local machine by using the "git clone" command on your console: 
 
     git clone https://github.com/cambridgecoding/machinelearningbootcamp.git 
 
-or click on the "Download ZIP" button on the [https://github.com/cambridgecoding/machinelearningbootcamp](https://github.com/cambridgecoding/machinelearningbootcamp) page 
+Alternatively, click on the "Download ZIP" button under [https://github.com/cambridgecoding/machinelearningbootcamp](https://github.com/cambridgecoding/machinelearningbootcamp) 
 
 
 ## Download the data
