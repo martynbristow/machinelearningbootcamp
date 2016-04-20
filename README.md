@@ -5,7 +5,7 @@
 Install Anaconda (**Python 2.7**) from:  [https://www.continuum.io/downloads](https://www.continuum.io/downloads)
 This includes python 2.7.9 and the necessary libraries we will be using: "numpy", "matplotlib", "scipy" and "scikit-learn"
 
-## Install Packages
+## Install Packages with pip
 
 Installing required packages using "pip"
 
@@ -43,8 +43,8 @@ If the opencv/cv2 library does not load and gives you an error while in the prev
 
 If you wants to install opencv (including cv2) on OSX with **Python 3+** (not 2.7) try this:
 
-		conda install --channel https://conda.anaconda.org/menpo opencv3
-		(import cv2)
+    conda install --channel https://conda.anaconda.org/menpo opencv3
+    (import cv2)
 
 ## Install git
 
