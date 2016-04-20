@@ -56,20 +56,18 @@ Install git if you don't have it: [http://git-scm.com/](http://git-scm.com/)
 Sign up for a GitHub account or sign in if you have one: [github.com](https://github.com)
 
 
-## Fork and clone the code from GitHub
+## Clone or download the code from the CCA GitHub repository
 
-Step-by-step information on *how to clone and fork a GitHub repository* can be found at https://guides.github.com/activities/forking/. 
+You can create a copy of the provided code on your local machine by either using the "git clone" command on your console: 
 
-Fork the CCA bootcamp repository at:
+    git clone https://github.com/cambridgecoding/machinelearningbootcamp.git 
 
-[https://github.com/cambridgecoding/machinelearningbootcamp.git](https://github.com/cambridgecoding/machinelearningbootcamp.git)
-
-Clone the code from your own repository on your Desktop or another folder on your local machine.
+or click on the "Download ZIP" button on the [https://github.com/cambridgecoding/machinelearningbootcamp](https://github.com/cambridgecoding/machinelearningbootcamp) page 
 
 
 ## Download the data
 
-Download the following file (may take some time) and place it in the day2 folder  
+Download the following file (may take some time) and place it in the day2 folder of the ....  
 
 VGG16 weights (500MB) from [https://drive.google.com/file/d/0Bz7KyqmuGsilT0J5dmRCM0ROVHc/view](https://drive.google.com/file/d/0Bz7KyqmuGsilT0J5dmRCM0ROVHc/view)
 
