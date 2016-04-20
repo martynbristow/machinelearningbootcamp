@@ -53,15 +53,16 @@ Install git if you don't have it: [http://git-scm.com/](http://git-scm.com/)
 Sign up for a GitHub account or sign in if you have one: [github.com](https://github.com)
 
 
-## Fork and clone the code
+## Fork and clone the code from GitHub
+
+Step-by-step information on *how to clone and fork a GitHub repository* can be found at https://guides.github.com/activities/forking/. 
 
 Fork the CCA bootcamp repository at:
 
 [https://github.com/cambridgecoding/machinelearningbootcamp.git](https://github.com/cambridgecoding/machinelearningbootcamp.git)
 
-Clone the code from your own repository.
+Clone the code from your own repository on your Desktop or another folder on your local machine.
 
-Step-by-step information on how to clone and fork a GitHub repository can be found at https://guides.github.com/activities/forking/. 
 
 ## Download the data
 
@@ -71,8 +72,12 @@ VGG16 weights (500MB) from [https://drive.google.com/file/d/0Bz7KyqmuGsilT0J5dmR
 
 ## Finalise the setup
 
-Open and run the "[load_libraries.ipynb](https://github.com/cambridgecoding/machinelearningbootcamp/blob/master/load_libraries.ipynb)" file, wait for the pre-fetching of the CIFAR10 dataset to be completed (it may take a while but a progress bar will show you the remaining time) and check whether the libraries have been successfully loaded.
-
-To execute the notebook, in your terminal run:
+Navigate to the cloned "machinelearningbootcamp" repository on your local machine, and open and run the "[load_libraries.ipynb](https://github.com/cambridgecoding/machinelearningbootcamp/blob/master/load_libraries.ipynb)" file. Wait for the pre-fetching of the CIFAR10 dataset to be completed (it may take a while but a progress bar will show you the remaining time) and check whether the libraries have been successfully loaded. To execute the notebook, in your terminal run:
 
     ipython notebook load_libraries.ipynb
+
+* You can run the notebook document step-by-step (one cell a time) by pressing **shift + enter**.
+* You can run the whole notebook in a single step by clicking on the menu Cell -> Run All.
+* To restart the kernel (i.e. the computational engine), click on the menu Kernel -> Restart. This can be useful to start over a computation from scratch (e.g. variables are deleted, open files are closed, etc...).
+* Click on the menu Help -> User Interface Tour for an overview of the Jupyter Notebook App user interface.
+
