@@ -18,7 +18,7 @@ You may need to use `sudo pip install` (for OSX, *nix, etc) or run your command 
     (sudo) pip install keras
     (sudo) pip install --upgrade --no-deps git+git://github.com/Theano/Theano.git
 
-Nota that if you're on windows you'll need to install some additional packages to use theano:
+Note that if you're on windows you'll need to install some additional packages to use theano:
 
     conda install mingw libpython
 
