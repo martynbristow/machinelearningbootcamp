@@ -67,7 +67,7 @@ Alternatively, click on the "Download ZIP" button under [https://github.com/camb
 
 ## Download the data
 
-Download the following file (may take some time) and place it in the day2 folder of the ....  
+Download the following file (may take some time) and place it in the day2 folder  
 
 VGG16 weights (500MB) from [https://drive.google.com/file/d/0Bz7KyqmuGsilT0J5dmRCM0ROVHc/view](https://drive.google.com/file/d/0Bz7KyqmuGsilT0J5dmRCM0ROVHc/view)
 
