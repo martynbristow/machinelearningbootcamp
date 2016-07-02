@@ -25,6 +25,4 @@ run:
 
 all:
 	@echo "Please run a command"
-
-#.PHONY all<<<<<<< HEAD
 #.PHONY all
