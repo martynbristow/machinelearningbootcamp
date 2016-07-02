@@ -44,32 +44,33 @@ class RequirementCheck(unittest.TestCase):
         """
         setattr(cls, name, module)
 
-def check_requirements(requirement, comment=""):
-    """ x
-    """
-    if comment:
-        print "Checking requirements: %s" % comment
-    for require in requirement:
-        print "Registering test for: %s" % require
-        RequirementCheck.register("test_%s" % require, generate_test(require))
-    #unittest.main()
+if __name__ == "__main__":
     suite = unittest.TestSuite()
     result = unittest.TestResult()
+
+    def add_tests(require, comment):
+        """ Add a test
+        """
+        for requirement in require:
+            RequirementCheck.register("test_%s" % requirement, generate_test(requirement))
+        return None
+
+    add_tests(REQUIRE_DAY1, "Day 1")
+    add_tests(REQUIRE_DAY2, "Day 2")
     suite.addTest(unittest.makeSuite(RequirementCheck))
-    #fooRunner = unittest.TextTestRunner()
-    #fooRunner.run(suite)
     def _error(error):
-        for issue in error:
-            print issue[1]
+        """ Parse error
+        """
+
+        return [item[1].splitlines()[-1].split(':', 1)[-1].strip()  for item in error]
+#item
     suite.run(result)
     if result.failures:
-        _error(result.failures)
+        failures = _error(result.failures)
+        print "Failures: %s" % ", ".join(failures)
     if result.errors:
-        _error(result.errors)
-    if len(result.errors)+len(result.failures) > 0:
-        print "Sorry "
-
-
-if __name__ == "__main__":
-    check_requirements(REQUIRE_DAY1, "Day 1")
-    check_requirements(REQUIRE_DAY2, "Day 2")
+        errors = _error(result.errors)
+        print "Error: %s" % ", ".join(errors)
+    if len(result.errors)+len(result.failures) > 0: 
+        "Errors"
+        

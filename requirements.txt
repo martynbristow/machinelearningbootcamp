@@ -1,0 +1,9 @@
+#!/bin/sh
+pip install Plotly
+pip install keras
+pip install matplotlib
+pip install numpy
+pip install scikit-learn
+pip install --upgrade --no-deps git+git://github.com/Theano/Theano.git
+git clone https://github.com/cambridgecoding/machinelearningbootcamp.git
+curl https://github.com/Itseez/opencv/archive/2.4.13.zip
