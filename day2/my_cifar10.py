@@ -71,12 +71,12 @@ def load_data():
     y_train = np.zeros((nb_train_samples,), dtype="uint8")
 
     for i in range(1, 6):
-        fpath = os.path.join('/day2', dirname, 'data_batch_' + str(i))
+        fpath = os.path.join('/day2/datasets', dirname, 'data_batch_' + str(i))
         data, labels = load_batch(fpath)
         X_train[(i-1)*10000:i*10000, :, :, :] = data
         y_train[(i-1)*10000:i*10000] = labels
 
-    fpath = os.path.join('/day2', dirname, 'test_batch')
+    fpath = os.path.join('/day2/datasets', dirname, 'test_batch')
     X_test, y_test = load_batch(fpath)
 
     y_train = np.reshape(y_train, (len(y_train), 1))
