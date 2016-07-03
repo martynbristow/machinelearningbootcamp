@@ -1,3 +1,8 @@
+""" Cambridge Code Academy Visual Plots
+License: 
+Author: Cambridge Code Academy
+Email: 
+"""
 import numpy as np
 import plotly.graph_objs as go 
 
@@ -384,7 +389,7 @@ def rfAvgAcc(rfModel, XTest, yTest):
         for i in np.arange(df.shape[1]):
             (values,counts) = np.unique(df[:j,i],return_counts=True)
             ind=np.argmax(counts)
-            mv.append(values[ind].astype(int))
+            mv.append(values[ind].astype(float))
         avgPred.append(metrics.accuracy_score(yTest, mv))
 
     trace = go.Scatter(
