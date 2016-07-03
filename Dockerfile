@@ -46,6 +46,8 @@ RUN cd \
 
 EXPOSE 8080
 
+RUN apt-get install -y libhdf5-serial-dev
+RUN pip install h5py
 ADD start.sh /start.sh
 RUN chmod +x /start.sh
 CMD ["/start.sh"]
